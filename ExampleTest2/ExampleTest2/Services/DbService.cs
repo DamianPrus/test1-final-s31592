@@ -50,13 +50,6 @@ public class DbService : IDbService
 
         try
         {
-            // var player = await _context.Players
-            //     .FirstOrDefaultAsync(p => )
-
-
-            // var match = await _context.Matches
-            //     .FirstOrDefaultAsync(m => m.MatchId == addPlayerMatchesDto.PlayerMatches.Select())
-            
             
             foreach (var newPlayerMatch in addPlayerMatchesDto.Matches)
             {
