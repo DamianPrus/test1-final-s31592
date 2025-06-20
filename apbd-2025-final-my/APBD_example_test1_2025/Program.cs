@@ -6,8 +6,6 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddScoped<IDbService, DbService>();
-builder.Services.AddScoped<IDbService2, DbService2>();
-builder.Services.AddScoped<IDbService3, DbService3>();
 
 var app = builder.Build();
 
